@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#showcase{
+    height: 100vh;
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/images/beach/beachshowcase.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: rgb(204, 150, 150);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 50px;
+    
+}
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 150, 150);
+    color: rgb(204, 150, 150);
+    background-color: transparent;
+}
+button:hover{
+    background-color: rgb(204, 150, 150);
+    color: white;
+    cursor: pointer;
+}
+.article-max{
+    text-align: center;
+}
+.article-max p{
+    padding: 10px 20px;
+    margin: 0;
+}
+.article-max p:nth-child(odd){
+    background-color: rgb(204, 150, 150);
+    color: white;
+}
+.article-min{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.article-min p:nth-child(odd){
+    background-color: rgb(204, 150, 150);
+    color: white;
+}
